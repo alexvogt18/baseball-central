@@ -1,23 +1,39 @@
 <!DOCTYPE html>
   <html>
     <head>
-      <title>Welcome To Baseball Central</title>
+      <title>Welcome To Baseball-Central</title>
       <style>
-        body {background-color: darkgoldenrod;}
-        li {color: red;}
+        body {background-color: rgb(189, 18, 18);}
+        li {color: rgb(39, 27, 206);}
       </style>
     </head>
     <body>
-      <img style="border: 5px solid black" src="">
-      <h1 style="color: green">Welcome to Class</h1>
-      <p style="background-color: aqua;">This is a paragraph element - where we store text</p>
-      <ul>
-        <li><p>lab assignment 1</p></li>
+      <p><img style="border: 5px solid black; img.align: center" src="http://beckett-www.s3.amazonaws.com/news/news-content/uploads/2017/09/2017-Stadium-Club-Stephen-Vogt.jpg"> <i>Photo Credit: beckett.com</i>
+      
+        <h1 style="color: rgb(12, 30, 133)">Welcome to Baseball-Central</h1>
+      <p style="background-color: aqua;">The following is my list of 4 quesitons:</p>
+      <ul style="background-color: white">
+        <li><p>What is your name?</p></li>
+        <li><p>What is your favorite Baseball team?</p></li>
+        <li><p>Who is your favorite Baseball Player?</p></li>
+        <li><p>Who holds the record for the highest career slugging percentage?</p></li>
       </ul>
       <script>
         let userName= prompt('What is your name?');
         console.log('Our users name is ', userName);
-        alert('hey, thanks for visiting my webpage ' + userName);
+        alert('Welcome to my page ' + userName);
+
+        let favteam= prompt('What is your favorite baseball team?');
+        console.log('Our users favorite baseball team is ', favteam);
+        alert('Thanks for answering,  ' + favteam + ' is ready for the season to get in full swing!');
+
+        let favplayer= prompt('Who is your favorite baseball player?');
+        console.log('Our users favorite baseball player is ', favplayer);
+        alert('Thanks for answering, ' + favplayer + ' is good!');
+
+        let quizques= prompt('Who holds the record for the highest career slugging percentage?');
+        console.log('Our users guess is ', quizques);
+        alert('hey, thanks for visiting my webpage ' + quizques);
       </script>
     </body>
   </html>
