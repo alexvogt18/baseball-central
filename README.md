@@ -1,2 +1,2 @@
 # baseball-central
-First HTML document of Code 201 class, used for first assigned lab.
+#### This personal project will reflect API calls used for baseball statistics from some of my favorite current baseball players.
